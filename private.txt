@@ -8,24 +8,13 @@
 * Записатись до зубного
 * купити бакси/євро
 
+https://simeinyi-budzhet.ua/investments/great_depression_diary/
+https://www.biolayne.com/articles/training/benefits-heat-exposure-health-performance/
 
-Привіт.
-Я тут поміж перельотів заколбасив скріпт, який трошки швидше збирає host. Не знаю, наскільки він має право на життя, бо він дуже незграбний. Суть у тому, аби перезбирати тільки ті модулі (*.ko), які змінились, а ті, що не змінювались -- кешуються. Якщо змінився хоч один *.h -- перезбираємо все.
-По часу получається
-qca_ol + umac = 3:30
-qca_ol 		  = 2:30
-tdd_arq		  = 0:27
+Владимир Буковский, "...И возвращается ветер"
+Евдокимов врач
 
-
-1. Після першої зборки copy або merge папку в проект.
-2. Після першої зборки запускати tdd_qsdk.sh замість make
-3. Модулі потім треба забрати із (/build_dir/target-arm-openwrt-linux/linux-ipq806x/qca-wifi-10.4-g2f5d4e3-dirty-unified-profile/qca-wifi-10.4-g2f5d4e3-dirty/ipkg-ipq806x/kmod-qca-wifi-10.4-unified-profile/lib/modules/3.14.77/). Я це роблю скріптом qca.sh, в ньому треье
-4. зробити wifi down
-перезаписати в (/lib/modules/3.14.77/) та перезавантажити борду.
-
-Regards,
-Evgen.
-
+patch_HIF_blocking_memcpy
 
 
 /home/hemix/AC_RC18/qsdk/build_dir/target-arm-openwrt-linux/linux-ipq806x/qca-wifi-10.4-g2f5d4e3-dirty-unified-profile/qca-wifi-10.4-g2f5d4e3-dirty/ipkg-ipq806x/kmod-qca-wifi-10.4-unified-profile/lib/modules/3.14.77/
